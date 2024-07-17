@@ -17,4 +17,4 @@ deployment:
         memory: 2Gi
   volumeClaimTemplates:
     storage: 10Gi
-    storageClassName: longhorn
+    storageClassName: local-path
